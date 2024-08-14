@@ -1,0 +1,21 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del cielo -->
+  <rect x="0" y="0" width="300" height="200" fill="lightblue" />
+
+  <!-- Sol -->
+  <circle cx="150" cy="150" r="40" fill="orange" />
+
+  <!-- Mar -->
+  <rect x="0" y="160" width="300" height="40" fill="darkblue" />
+
+  <!-- Reflejo del sol en el mar -->
+  <ellipse cx="150" cy="180" rx="40" ry="10" fill="orange" opacity="0.5" />
+
+  <!-- Nubes -->
+  <ellipse cx="60" cy="40" rx="40" ry="20" fill="white" opacity="0.8" />
+  <ellipse cx="240" cy="50" rx="50" ry="25" fill="white" opacity="0.8" />
+
+  <!-- Montañas -->
+  <polygon points="0,160 75,100 150,160" fill="saddlebrown" />
+  <polygon points="150,160 225,100 300,160" fill="saddlebrown" />
+</svg>
